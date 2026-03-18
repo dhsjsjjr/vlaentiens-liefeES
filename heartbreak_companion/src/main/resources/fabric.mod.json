@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "heartbreaksmp",
+  "version": "${version}",
+  "name": "Heartbreak SMP",
+  "description": "Valentine's Day life series companion mod. Requires Life Series mod.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.heartbreak.HeartbreakMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
